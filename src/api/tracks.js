@@ -47,6 +47,6 @@ export default [
     '5ZkMIeFkKTKhlX1Eaoug6n',
     '2khIaVUkbMmDHB596lyMG3',
     '4VgGx1cQlHB7Ls1Ukt0H7H',
-    '2mFea4DOhY3iShay4BQ0se',
+    '6ZFbXIJkuI1dVNWvzJzown',
     '74Ru27B7Jx8mBt5MGvGLLv'
 ]
