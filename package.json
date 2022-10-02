@@ -10,7 +10,7 @@
     "dev:server": "nodemon src/start --exec \"babel-node\"",
     "dev:client": "webpack-dev-server",
     "clean": "rimraf dist lib",
-    "build": "yarn clean && env-cmd run-p build:*",
+    "build": "npm run clean && env-cmd run-p build:*",
     "build:server": "babel src --out-dir lib",
     "build:client": "webpack",
     "start": "node lib/start",
