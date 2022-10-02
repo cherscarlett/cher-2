@@ -1,5 +1,4 @@
-# Another SSR Boilerplate
-
+# Cher.dev
 I built this using the SSR Boilerplate from the Riot Tech blog article "[Better Apps with React Server-Side Rendering](https://technology.riotgames.com/news/better-apps-react-server-side-rendering)".
 
 ## Setup
