@@ -5,6 +5,7 @@ import axios from 'axios'
 import TRACK_IDS from './tracks'
 import content from './content'
 import work from './work'
+import fun from './fun'
 
 const router = new Router()
 
@@ -39,10 +40,16 @@ router.get('/home', async (ctx) => {
 })
 
 router.get('/resume', (ctx) => {
-
   ctx.body = {
     content: content.resume,
     resume: work,
+  }
+})
+
+router.get('/fun', (ctx) => {
+  ctx.body = {
+    content: content.fun,
+    fun
   }
 })
 

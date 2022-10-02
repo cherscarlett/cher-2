@@ -2,10 +2,12 @@ import React from 'react'
 import { Switch, Route, matchPath } from 'react-router'
 import Home from './scenes/Home'
 import Resume from './scenes/Resume'
+import Fun from './scenes/Fun'
 import NotFound from './scenes/NotFound'
 import {
   loadResume,
   loadHome,
+  loadFun,
 } from './services/loaders'
 
 const noop = () => undefined
@@ -18,6 +20,10 @@ const HOME = {
 
 const RESUME = {
   path: '/resume',
+}
+
+const FUN = {
+  path: '/fun',
 }
 
 // This is a very unsophisticated data loader
@@ -42,6 +48,9 @@ export const loadDataForLocation = prevLocation => async (
   if (matchPath(location.pathname, RESUME)) {
     return dispatch(loadResume())
   }
+  if (matchPath(location.pathname, FUN)) {
+    return dispatch(loadFun())
+  }
 
   return noop
 }
@@ -51,6 +60,7 @@ const Routes = () => (
   <Switch>
     <Route {...HOME} component={Home} />
     <Route {...RESUME} component={Resume} />
+    <Route {...FUN} component={Fun} />
     <Route component={NotFound} />
   </Switch>
 )

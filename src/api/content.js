@@ -10,5 +10,12 @@ export default {
     },
     resume: {
         heading: 'Work History',
+    },
+    fun: {
+        heading: 'Fun Stuff',
+        paragraphs:  [
+            'In order to make myself stand out as a candidate early in my career, and to fight for more equitable pay, I built fun themed resume applications and other things.',
+            'Here are a few of my favorites, along with other things I\'ve built in my free time.'
+        ]
     }
 }

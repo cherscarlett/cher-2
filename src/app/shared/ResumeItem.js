@@ -1,5 +1,4 @@
 import React from 'react'
-import Stars from '../shared/Stars'
 
 const ResumeItem = ({role}) => {
   return (
