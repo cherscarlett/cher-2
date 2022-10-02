@@ -5,16 +5,12 @@ import Track from '../shared/Track'
 import Stars from '../shared/Stars'
 import HorizontalRule from '../shared/HorizontalRule'
 import { selectHome } from '../services/reducer'
-import { Helmet } from 'react-helmet-async'
 
 const Home = () => {
   const { content, tracks } = useSelector(selectHome)
 
   return (
     <>
-      <Helmet>
-        <title>cher.dev</title>
-      </Helmet>
       <Nav />
       {content ? (
         <div className='content content__home'>

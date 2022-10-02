@@ -4,12 +4,16 @@ import Nav from '../shared/Nav'
 import ResumeItem from '../shared/ResumeItem'
 import Stars from '../shared/Stars'
 import { selectResume } from '../services/reducer'
+import { Helmet } from 'react-helmet-async'
 
 const Resume = () => {
   const { content, resume } = useSelector(selectResume)
 
   return (
       <>
+        <Helmet>
+          <title>Cher Scarlett - Software Engineer - Resume</title>
+        </Helmet>
         <Nav />
         { content ? 
           (<div className='content content_resume'>
