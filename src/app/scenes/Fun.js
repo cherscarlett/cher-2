@@ -4,6 +4,7 @@ import Nav from '../shared/Nav'
 import Stars from '../shared/Stars'
 import HorizontalRule from '../shared/HorizontalRule'
 import FunItem from '../shared/FunItem'
+import Loader from '../shared/Loader'
 import { selectFun } from '../services/reducer'
 import { Helmet } from 'react-helmet-async'
 
@@ -23,7 +24,7 @@ const Fun = () => {
             <HorizontalRule />
             {fun.map((project, index) => (<FunItem project={project} key={index} />))}
             <Stars />
-        </div>) : (<>Loading...</>)}
+        </div>) : (<Loader />)}
     </>
   )
 }

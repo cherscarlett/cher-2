@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import Nav from '../shared/Nav'
 import ResumeItem from '../shared/ResumeItem'
 import Stars from '../shared/Stars'
+import Loader from '../shared/Loader'
 import { selectResume } from '../services/reducer'
 import { Helmet } from 'react-helmet-async'
 
@@ -20,7 +21,7 @@ const Resume = () => {
             <h1>{content.heading}</h1>
             {resume.map((role, index) => (<ResumeItem role={role} key={index} />))}
             <Stars />
-        </div>) : (<>Loading...</>)}
+        </div>) : (<Loader />)}
     </>
   )
 }

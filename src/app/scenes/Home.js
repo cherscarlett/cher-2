@@ -4,6 +4,7 @@ import Nav from '../shared/Nav'
 import Track from '../shared/Track'
 import Stars from '../shared/Stars'
 import HorizontalRule from '../shared/HorizontalRule'
+import Loader from '../shared/Loader'
 import { selectHome } from '../services/reducer'
 
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
             { tracks.map(track => (<Track key={track.id} track={track} />)) || 'Loading tracks...'}
           </div>
           <Stars />
-        </div>) : (<>Loading...</>) }
+        </div>) : (<Loader />) }
     </>
   )
 }
