@@ -1,4 +1,5 @@
 export default [
+    {title: "CODE-CWA", subtitle: "Organizer", dates: "October 2022 - present"},
     {title: "ControlZee", subtitle: "Senior Software Engineer", dates: "March 2022 - present"},
     {title: "The Solidarity Fund by Coworker", subtitle: "Committee Member", dates: "October 2021 - Present"},
     {title: "Apple", subtitle: "Principal Software Engineer", dates: "April 2020 - November 2021"},
