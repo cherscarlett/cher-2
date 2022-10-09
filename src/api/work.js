@@ -9,5 +9,6 @@ export default [
     {title: "Orange County Probation: OC Grip", subtitle: "Mentor", dates: "August 2015 - August 2016"},
     {title: "Blizzard Entertainment", subtitle: "Software Engineer", dates: "August 2015 - August 2016"},
     {title: "USA Today", subtitle: "Senior Developer, Web & Emerging Platforms", dates: "November 2011 - August 2015"},
+    {title: "Neutrino", subtitle: "Front-End Developer", dates: "January 2008 - November 2011"},
     {title: "LuxuryRealEstate.com", subtitle: "Web Developer", dates: "May 2007 - January 2008"},
 ]

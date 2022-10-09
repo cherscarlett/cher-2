@@ -33,5 +33,19 @@ export default [
         img: '/assets/images/spotify.png',
         url: 'https://www.smashingmagazine.com/2019/03/spotify-app-vue-nuxt-javascript/',
         link: 'smashingmagazine.com'
+    },
+    {
+        title: 'Star Wars Film App',
+        description: 'I built this as part of my interview process for Seattle Cancer Care Alliance. The task was to use the IMDB api to display information. I made it a little more fun than that!',
+        img: '/assets/images/starwars.png',
+        url: 'https://cher-star-wars.herokuapp.com/',
+        link: 'cher-star-wars.herokuapp.com'
+    },
+    {
+        title: 'Github Repository Search App',
+        description: 'I built this as part of my interview process for Netflix. The task was to use the Github API to display an organization\'s repositories. I tried to make it fun and break-proof.',
+        img: '/assets/images/github.png',
+        url: 'https://github-search-dev-test.herokuapp.com/',
+        link: 'github-search-dev-test.herokuapp.com'
     }
 ]
