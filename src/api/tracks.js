@@ -27,7 +27,7 @@ export default [
     '1BsH94NLjVe7cHJ8t5oWSP',
     '5vUuzdM74dHyN00k0oozoR',
     '43MZ2K6xe4fvg93C95Fays',
-    '63az9I8uaXv80TyJ5KZPiN',
+    '2j2gg1qa7cm0APuuqhFKGK',
     '69Sy7207dnixZ6w7RSV9Kb',
     '1FpVJ7HpZInE2GvhVE2TwT',
     '7hakBrWzzouKXpopdzq9DI',
